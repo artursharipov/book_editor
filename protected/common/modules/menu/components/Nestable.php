@@ -6,7 +6,7 @@ use yii\helpers\Html;
 
 class Nestable extends \klisl\nestable\Nestable
 {
-	public $handleLabel = '<div class="dd-handle dd3-handle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></div>';
+	public $handleLabel = '<div class="dd-handle dd3-handle"><i class="glyphicon glyphicon-move" aria-hidden="true"></i></div>';
 
     public function registerAssets() {
 		$view = $this->getView();

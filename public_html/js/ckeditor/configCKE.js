@@ -2,7 +2,7 @@ CKEDITOR.plugins.addExternal('insertpre', '/js/ckeditor/insertpre/');
 CKEDITOR.plugins.addExternal('videoembed', '/js/ckeditor/videoembed/');
 CKEDITOR.plugins.addExternal('video', '/js/ckeditor/video/');
 CKEDITOR.plugins.addExternal('audio', '/js/ckeditor/audio/');
-CKEDITOR.plugins.addExternal('autogrow', '/js/ckeditor/autogrow/');
+// CKEDITOR.plugins.addExternal('autogrow', '/js/ckeditor/autogrow/');
 CKEDITOR.plugins.addExternal('tableresizerowandcolumn', '/js/ckeditor/tableresizerowandcolumn/');
 CKEDITOR.plugins.addExternal('presentation', '/js/ckeditor/presentation/');
 
@@ -11,10 +11,10 @@ CKEDITOR.editorConfig = function( config ) {
 	config.allowedContent = true;
 	config.removePlugins = 'elementspath';
 	config.resize_enabled = false;
-	config.extraPlugins = 'insertpre,videoembed,video,audio,autogrow,tableresizerowandcolumn,presentation';
+	config.extraPlugins = 'insertpre,videoembed,video,audio,tableresizerowandcolumn,presentation';
 	// config.skin = 'moono-dark,/moono-dark/';
 	config.disableNativeSpellChecker = false;
-	config.height = 400;
+	config.height = '100%';
 	config.toolbar = [
 		[
 			'Source', '-',                                     

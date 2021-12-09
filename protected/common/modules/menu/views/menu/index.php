@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
     
-    <p><?= Html::a('<i class="fa fa-plus" aria-hidden="true"></i> Добавить пункт', ['create'], ['class' => 'btn btn-success']) ?></p>
+    <p><?= Html::a('Добавить пункт', ['create'], ['class' => 'btn btn-success']) ?></p>
 
     <?= Nestable::widget([
         'type' => Nestable::TYPE_WITH_HANDLE,

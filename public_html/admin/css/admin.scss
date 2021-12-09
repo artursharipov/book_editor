@@ -25,3 +25,16 @@
         }
     }
 }
+/*CKEDITOR*/
+#cke_page-text{
+    height: 500px;
+}
+#cke_page-text .cke_inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*DRAG MENU*/
+.dd3-handle{
+    padding: 5px 7px;
+}
