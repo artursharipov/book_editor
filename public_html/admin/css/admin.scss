@@ -1,0 +1,27 @@
+/*ROW BUTTONS CONTROL */
+.btn-grid{
+    white-space: nowrap;
+    &>a{
+        color: #19344b;
+        border: 1px solid #19344b;
+        padding: 2px 6px;
+        vertical-align: middle;
+        background-color: white;
+        margin: 2px 2px 2px 0;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .dropdown{
+        .btn{
+            font-size: 12px;
+            padding: 4px 8px;
+        }
+        .dropdown-menu>li>a{
+            padding: 4px 8px;
+            font-size: 13px;
+        }
+        .glyphicon{
+            margin-right: 3px;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<div id="map" class="uk-position-relative" style="width: 100%; height: 500px">

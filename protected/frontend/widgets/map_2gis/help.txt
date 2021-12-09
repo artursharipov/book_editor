@@ -1,0 +1,5 @@
+<?= \frontend\widgets\map_2gis\Map2gisWidget::widget([
+    'height' => 500, 
+    'coord_x' => Yii::$app->settings->settings('coord_x'),
+    'coord_y' => Yii::$app->settings->settings('coord_y'), 
+])?>
