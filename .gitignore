@@ -1,1 +1,4 @@
 protected/vendor/
+protected/frontend/runtime/
+protected/backend/runtime/
+public_html/assets/
